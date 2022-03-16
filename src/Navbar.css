@@ -27,6 +27,7 @@
   font-weight: 400;
   position: relative;
   bottom: 65px;
+  border: 0.6px solid white;
 }
 .nav_button_signup {
   margin-top: 2rem;
