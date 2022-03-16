@@ -1,0 +1,59 @@
+.nav {
+  height: 0px;
+  width: 100%;
+}
+
+.nav_logo {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.027);
+  z-index: 432432342423;
+  opacity: 1000000;
+}
+.nav_buttons {
+  display: flex;
+  justify-content: end;
+}
+.nav_button_login {
+  margin-top: 2rem;
+  background-color: #111;
+  line-height: normal;
+  padding: 7px 17px;
+  font-size: 1rem;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  bottom: 65px;
+}
+.nav_button_signup {
+  margin-top: 2rem;
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-right: 2.9rem;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  bottom: 65px;
+}
+
+@media (max-width: 500px) {
+  .nav_button_login {
+    position: relative;
+    left: 40px;
+  }
+  .nav_button_signup {
+    position: relative;
+    left: 30px;
+  }
+  .nav_logo {
+    margin-top: 2rem;
+    font-size: 30px;
+    margin-left: 0;
+  }
+}
