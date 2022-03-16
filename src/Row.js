@@ -20,7 +20,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       return request;
     }
     fetchData();
-  }, [fetchUrl]);
+  }, [fetchUrl]); 
 
   const opts = {
     height: "390",
