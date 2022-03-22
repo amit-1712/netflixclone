@@ -1,10 +1,10 @@
 // 0d24939e3e593d09f03e8eaba6c08349
 
 import React from "react";
-import "./App.css";
+import "../styles/App.css";
 import Row from "./Row";
-import requests from "./request";
-import "./Row.css";
+import requests from "../constants/request";
+import "../styles/Row.css";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
 

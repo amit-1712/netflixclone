@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 import { Icon } from "@iconify/react";
 
 function Navbar() {
@@ -15,4 +15,3 @@ function Navbar() {
 }
 
 export default Navbar;
- 
